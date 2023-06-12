@@ -526,9 +526,20 @@ video {
   position: absolute;
 }
 
-.mx-\[2rem\] {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .mx-auto {
@@ -536,40 +547,64 @@ video {
   margin-right: auto;
 }
 
-.flex {
-  display: flex;
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
-.h-\[64px\] {
-  height: 64px;
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-6 {
   height: 1.5rem;
 }
 
-.w-\[64px\] {
-  width: 64px;
+.h-\[64px\] {
+  height: 64px;
 }
 
 .w-6 {
   width: 1.5rem;
 }
 
+.w-\[64px\] {
+  width: 64px;
+}
+
+.w-\[128px\] {
+  width: 128px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
   justify-content: center;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .border {
@@ -581,9 +616,46 @@ video {
   background-color: rgb(48 213 200 / var(--tw-bg-opacity));
 }
 
-.bg-red-100 {
+.bg-blue-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-center {
@@ -598,8 +670,22 @@ video {
   font-size: 2rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-\[\#2E2E2E\] {
   --tw-text-opacity: 1;
   color: rgb(46 46 46 / var(--tw-text-opacity));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
